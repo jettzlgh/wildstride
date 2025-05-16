@@ -433,7 +433,7 @@ if code:
 else:
     # background_image_url = "https://woody.cloudly.space/app/uploads/lesportesdusoleil/2022/11/thumbs/Z72_0900-HD-1920px-Web-%C2%A9-EVOQ-1920x960.jpg"  # Replace with your image URL or local path
 
-    background_image_url = "https://i.imgur.com/v2crJCY.png"
+    background_image_url = "https://i.imgur.com/ihSLyuK.jpeg"
     st.markdown(
         f"""
         <style>
@@ -442,6 +442,7 @@ else:
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+
         }}
         .login-link {{
             font-size: 24px;
@@ -483,8 +484,7 @@ else:
 
 
     access_token, athlete_id = get_valid_token(st.session_state.athlete_id)
-    st.title(" ")
-    st.write(" ")
+    st.title("WELCOME TO WILDSTRIDE")
     st.title("Start your journey to become a better runner with our AI coach.")
 
     st.write("Connect your Strava account and let our AI analyze your activities to give you **personalized, goal-driven coaching advice** you won’t find on Strava or Garmin.")
