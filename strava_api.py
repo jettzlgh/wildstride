@@ -9,7 +9,8 @@ storage = Storage()
 CLIENT_ID = st.secrets["strava_client_id"]
 CLIENT_SECRET = st.secrets["strava_client_secret"]
 
-REDIRECT_URI = "http://localhost:8501"
+# REDIRECT_URI = "http://localhost:8501"
+REDIRECT_URI = "https://wildstride.streamlit.app/"
 
 def remove_character(text: str, char_to_remove: str) -> str:
     return text.replace(char_to_remove, "")
